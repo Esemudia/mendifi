@@ -1,3 +1,4 @@
+
 const { graphqlHTTP } = require('express-graphql');
 const express = require('express');
 const { schema, root } = require('../views/graphqlSchema');
@@ -19,3 +20,4 @@ app.use(
 
 // Export as a serverless function for Vercel
 module.exports = app;
+

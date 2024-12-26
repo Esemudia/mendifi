@@ -10,6 +10,7 @@ const app = express();
 
 app.use(
   "/graphql",
+  "/api/graphql",
   graphqlHTTP({
     schema,
     rootValue: root,

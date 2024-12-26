@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/graphql.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb+srv://hotr:<2gKDedxqpSCIsf0c>@atlascluster.vqlvx8v.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster;"
+    }
+  }
+  
